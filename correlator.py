@@ -4,7 +4,6 @@ from bokeh.layouts import row, column, gridplot
 from bokeh.plotting import figure
 
 import numpy as np
-from scipy.ndimage.filters import uniform_filter1d
 
 # initialise data structures
 start_val = 0
