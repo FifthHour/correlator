@@ -118,7 +118,7 @@ def animate():
     global callback_id
     if button.label == 'Go':
         button.label = 'Stop'
-        callback_id = curdoc().add_periodic_callback(animate_update, 100)
+        callback_id = curdoc().add_periodic_callback(animate_update, 500)
     else:
         button.label = 'Go'
         curdoc().remove_periodic_callback(callback_id)
