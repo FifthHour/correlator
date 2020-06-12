@@ -1,1 +1,1 @@
-web: bokeh serve --port=$PORT --address=0.0.0.0 --allow-websocket-origin=fh-correlator.herokuapp.com --use-xheaders correlator.py
+web: bokeh serve --port=$PORT --allow-websocket-origin=fh-correlator.herokuapp.com --use-xheaders correlator.py
